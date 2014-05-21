@@ -1,0 +1,20 @@
+- var active = 1
+- var pageName = 'Главная'
+include includes/settings
+doctype html
+html(lang='ru')
+  head
+    include includes/head
+  body
+    .wrapper
+      .wrapper__1280
+        include includes/top-bar
+        include includes/header
+        include includes/slider
+        //- begin main  
+        .main
+          //- begin container  
+          .container
+          //- end container
+        include includes/footer
+    include includes/tail
