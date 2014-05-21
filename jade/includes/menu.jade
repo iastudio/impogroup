@@ -1,3 +1,15 @@
 .nav
 	.nav__logo
 		a.nav__logo__img(href="#")
+	.nav__menu
+		nav: ul
+			- each item, i in navItems
+				if (active == (i + 1))
+					li.active: a(href='#') #{item}
+				else
+					li: a(href='#') #{item}
+	hr
+	.nav__info
+		span (423) 255-25-25
+		br 
+		a(href="#") office@website.com

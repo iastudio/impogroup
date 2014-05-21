@@ -1,5 +1,8 @@
+$(window).scrollTop($(window).scrollTop()+1);
 
 (function(){
+    
+    //$.stellar({ horizontalScrolling: false });
 })();
 
 	/////////////////
