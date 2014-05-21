@@ -31,13 +31,9 @@
 @import "sprites";
 
 // Elements
-@import "header";
-@import "slider";
-@import "specslider";
-@import "sidebar";
+@import "nav";
 @import "content";
 @import "cat";
-@import "range-slider";
 @import "footer";
 
 *, *:before, *:after {
@@ -64,8 +60,8 @@ a[href^=tel]{
   }
 }
 
-#wrapper {
-	overflow: hidden;
+.wrapper {
+	height: 100%;
 }
 
 h1, h2, h3, h4 {

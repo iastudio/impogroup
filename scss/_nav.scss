@@ -1,0 +1,16 @@
+.nav {
+	position: fixed;
+	width: 240px;
+	height: 100%;
+	background: url('../i/nav-bg.jpg') 0 0 repeat-y #272727;
+	padding: 55px;
+	.nav__logo {
+		.nav__logo__img {
+			display: block;
+			width: 64px;
+			height: 40px;
+			background-image: url(../i/logo-fallback.png);
+  			background-image: url(../i/logo.svg), none;
+		}
+	}
+}
