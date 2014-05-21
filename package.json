@@ -1,7 +1,7 @@
 {
-  "name": "boilerplate",
-  "version": "0.0.0",
-  "description": "my boilerplate",
+  "name": "Impogroup",
+  "version": "0.0.1",
+  "description": "Impogroup landing",
   "author": "Ivan Rudoy",
   "dependencies": {
     "grunt": "^0.4.4",
