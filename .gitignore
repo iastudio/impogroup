@@ -44,6 +44,3 @@ node_modules
 
 #sftp configuration file
 sftp-config.json
-
-index.html
-css/app.css
