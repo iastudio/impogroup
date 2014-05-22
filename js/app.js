@@ -54,6 +54,44 @@ ymaps.ready(function() {
         });
     }
 
+    var easing = "easeInOutSine";
+     $('.slider__controls a').on( 'click', function( event ) {
+         //debugger;
+         var $this = $(this);
+         var $inner = $this.parent().parent().find('.slider__items');
+         var maxCount = $inner.find('.slider__item').length-6;
+         if ($inner.attr('data-count') == undefined)
+             $inner.attr('data-count', 0);
+         var count = parseInt($inner.attr('data-count'));
+         var marg = parseInt($inner.css('margin-left'));
+         var width = parseInt($inner.find('.slider__item').css('width'))+20;
+
+         event.preventDefault();
+         if ($inner.is(':animated')) {return;}
+            
+         if ( $this.hasClass("prev") ) {
+             if (count <= 0) {
+                 return;
+             } else {
+                 marg = marg+width;
+                 count -= 1;
+             }
+         } else if (count < maxCount) {
+             marg = marg-width;
+             count += 1;
+         }
+
+         $inner.animate({
+             marginLeft: marg+'px'
+         }, {
+           duration: 500,
+           easing: easing
+         });
+
+         $inner.attr('data-count', count);
+            
+     });
+
 })();
 
 	/////////////////
