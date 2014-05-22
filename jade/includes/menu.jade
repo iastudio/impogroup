@@ -1,15 +1,21 @@
 .nav
 	.nav__logo
-		a.nav__logo__img(href="#")
+		a.nav__logo__img(href="/")
 	.nav__menu
-		nav: ul
+		nav: ul#mainMenu
 			- each item, i in navItems
-				if (active == (i + 1))
-					li.active: a(href='#') #{item}
-				else
-					li: a(href='#') #{item}
+				li(data-menuanchor='#{item.anchor}'): a(href='##{item.anchor}') #{item.name}
 	hr
 	.nav__info
 		span (423) 255-25-25
 		br 
 		a(href="#") office@website.com
+		.nav__info__social
+			a.social--fb(href='#') f
+			a.social--tw(href='#') t
+			a.social--vk(href='#') в
+		.nav__info__copyright
+			img.icon-iastudio(src="i/iastudio-logo.svg", width="21", height="21", onerror="this.onerror=null; this.src='i/iastudio-logo.png'")
+			| Создание сайта &mdash; <br>
+			| студия 
+			a(href="http://iastudio.ru", target="_blank") «Интерактив»

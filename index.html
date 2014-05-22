@@ -22,20 +22,25 @@
   <body>
     <div class="wrapper">
       <div class="nav">
-        <div class="nav__logo"><a href="#" class="nav__logo__img"></a></div>
+        <div class="nav__logo"><a href="/" class="nav__logo__img"></a></div>
         <div class="nav__menu">
           <nav>
-            <ul>
-              <li class="active"><a href="#">Компания</a></li>
-              <li><a href="#">Услуги</a></li>
-              <li><a href="#">Транспортный маркетинг</a></li>
-              <li><a href="#">Партнеры</a></li>
-              <li><a href="#">Контакты</a></li>
+            <ul id="mainMenu">
+              <li data-menuanchor="company"><a href="#company">Компания</a></li>
+              <li data-menuanchor="services"><a href="#services">Услуги</a></li>
+              <li data-menuanchor="transport"><a href="#transport">Транспортный мониторинг</a></li>
+              <li data-menuanchor="partners"><a href="#partners">Партнеры</a></li>
+              <li data-menuanchor="contacts"><a href="#contacts">Контакты</a></li>
             </ul>
           </nav>
         </div>
         <hr>
-        <div class="nav__info"><span>(423) 255-25-25</span><br><a href="#">office@website.com</a></div>
+        <div class="nav__info"><span>(423) 255-25-25</span><br><a href="#">office@website.com</a>
+          <div class="nav__info__social"><a href="#" class="social--fb">f</a><a href="#" class="social--tw">t</a><a href="#" class="social--vk">в</a></div>
+          <div class="nav__info__copyright"><img src="i/iastudio-logo.svg" width="21" height="21" onerror="this.onerror=null; this.src='i/iastudio-logo.png'" class="icon-iastudio">Создание сайта &mdash; <br>
+            студия <a href="http://iastudio.ru" target="_blank">«Интерактив»</a>
+          </div>
+        </div>
       </div>
       <div class="main">
         <section class="section section--company">
@@ -56,9 +61,9 @@
         </section>
         <section class="section section--services">
           <div class="section-content">
-            <div class="container">
-              <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
-              <div class="content">
+            <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
+            <div class="content">
+              <div class="container">
                 <h3 class="content__title">Услуги</h3>
                 <div class="col-6 well">Внедрение и осуществление мониторинга с помощью серверов компании (абонентское обслуживание)</div>
                 <div class="col-6 well">Внедрение системы мониторинга на серверное оборудование компании клиента</div>
@@ -70,9 +75,9 @@
         </section>
         <section class="section section--transport">
           <div class="section-content">
-            <div class="container">
-              <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
-              <div class="content">
+            <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
+            <div class="content">
+              <div class="container">
                 <h3 class="content__title">Зачем нужен мониторинг автотранспорта?</h3>
                 <div id="slider">
                   <div class="slider-item col-2">Контроль за транспортам в режиме реального времени</div>
@@ -88,9 +93,9 @@
         </section>
         <section class="section section--partners">
           <div class="section-content">
-            <div class="container">
-              <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
-              <div class="content">
+            <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
+            <div class="content">
+              <div class="container">
                 <h3 class="content__title">НаШИ Партнеры и клиенты</h3>
                 <div class="partners__item col-2"><img src="i/partners/1.png"></div>
                 <div class="partners__item col-2"><img src="i/partners/2.png"></div>
@@ -98,6 +103,23 @@
                 <div class="partners__item col-2"><img src="i/partners/1.png"></div>
                 <div class="partners__item col-2"><img src="i/partners/2.png"></div>
                 <div class="partners__item col-2"><img src="i/partners/3.png"></div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <section class="section section--contacts">
+          <div id="map"></div>
+          <div class="section-content">
+            <div class="title"><span>Системы спутникового мониторинга</span><span>ДОЗОР GPS / ГЛОНАСС</span></div>
+            <div class="content">
+              <div class="container">
+                <h3 class="content__title">Свяжитесь с нами</h3>
+                <h4>ООО «Импо Групп»</h4>
+                <div class="col-4">
+                  <p>690087, Приморский Край,<br>г. Владивосток, ул. Сабанеева 24В</p>
+                  <p>тел. - (423) 2-99-40-36<br>факс – (423) 2-611-476</p>
+                </div>
+                <div class="col-3"><a href="#">Скачать<br>реквизиты</a></div>
               </div>
             </div>
           </div>

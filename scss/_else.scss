@@ -65,6 +65,16 @@ body, html {
 	}
 }
 
+.section--contacts {
+	.title span, .content {
+		@include box-shadow(rgba(#BEBEBE, 1) 0 5px 0 0, rgba(#B0B0B0, 1) 0 7px 0 0, rgba(#D0CFCA, 1) 0 20px 10px -10px);
+	}
+	.content {
+		width: 500px;
+		padding-bottom: 20px;
+	}
+}
+
 .title {
 	font-family: 'Clear Sans';
 	font-size: 36px;
@@ -73,9 +83,11 @@ body, html {
 	color: #B00C12;
 	display: block;
 	width: 1020px;
-	margin: 0 auto;
+	//margin: 0 auto;
+	margin-left: 85px;
 	//margin-top: 50px;
 	margin-bottom: 80px;
+	position: relative;
 	span {
 		background-color: #FFFFFF;
 		display: inline-block;
@@ -93,7 +105,8 @@ body, html {
 	overflow: hidden;
 	position: relative;
 	width: 1020px;
-	margin: 0 auto;
+	//margin: 0 auto;
+	margin-left: 85px;
 
 	.content__title {
 		position: absolute;
@@ -119,4 +132,9 @@ body, html {
 	background-color: #fff;
 	padding: 30px 40px;
 	margin-bottom: 20px;
+}
+
+#map {
+	position: absolute;
+	width: 100%; height: 100%;
 }

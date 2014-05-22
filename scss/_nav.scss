@@ -20,28 +20,76 @@
 		ul {
 			li {
 				list-style: none;
-				margin: 0;
+				padding: 15px 0;
+				margin: 5px 0;
 				a, a:link, a:visited {
 					display: block;
-					color: #fff;
+					position: relative;
+					//font-weight: bold;
 					text-transform: uppercase;
 					text-decoration: none;
 					line-height: 1;
-					padding: 15px 0;
-					margin: 5px 0;
-
-					&:hover {
-						font-weight: bold;
+					color: #D5D5D5;
+				}
+				&.active a, & a:hover {
+					color: #fff;
+					&:before {
+						display: block;
+						position: absolute;
+						//top: 0;
+						left: -9px;
+						content: '';
+						width: 4px; height: 100%;
+						background-color: #D3131B;
 					}
 				}
 			}
 		}
 	}
 	.nav__info {
+		font-family: 'Clear Sans';
 		margin-top: 80px;
 		a, a:link, a:visited {
 			color: #fff;
 			text-decoration: none;
+		}
+		.nav__info__social {
+			margin: 40px 0;
+			a {
+				border-radius: 9999px;
+				color: #FFF;
+				width: 25px; height: 25px;
+				display: inline-block;
+				margin-right: 12px;
+				font-weight: 200;
+				line-height: 25px;
+				text-align: center;
+				&.social--fb {
+					background-color: #003C6F;
+				}
+				&.social--tw {
+					background-color: #3EBAC2;
+				}
+				&.social--vk {
+					background-color: #0470A8;
+				}
+				&:hover {
+					opacity: 0.7;
+				}
+			}
+		}
+		.nav__info__copyright {
+			font-size: 12px;
+			line-height: 1;
+			position: relative;
+			width: 200px;
+			.icon-iastudio {
+				float: left;
+				margin-right: 5px;
+			}
+			a:hover {
+				text-decoration: underline;
+			}
 		}
 	}
 	hr {
@@ -106,7 +154,7 @@
 }
 #fullPage-nav li .active span,
 .fullPage-slidesNav .active span {
-    background: #333;
+    background: #FFF;
 }
 #fullPage-nav span,
 .fullPage-slidesNav span {
@@ -114,7 +162,7 @@
     left: 2px;
     width: 8px;
     height: 8px;
-    border: 1px solid #000;
+    border: 1px solid #FFF;
     background: rgba(0, 0, 0, 0);
     -webkit-border-radius: 50%;
     -moz-border-radius: 50%;

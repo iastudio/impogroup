@@ -81,17 +81,26 @@ module.exports = function(grunt) {
         files: ['i/**/*.{png,jpg,gif}'],
         tasks: ['imagemin'],
       }
+    },
+    connect: {
+      server: {
+        options: {
+          port: 3000,
+          dest: '.'
+        }
+      }
     }
   });
 
   grunt.loadNpmTasks('grunt-autoprefixer');
   grunt.loadNpmTasks('grunt-contrib-jade');
   grunt.loadNpmTasks('grunt-contrib-compass');
+  grunt.loadNpmTasks('grunt-contrib-connect');
   grunt.loadNpmTasks('grunt-contrib-watch');
   grunt.loadNpmTasks('grunt-contrib-imagemin');
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
 
   grunt.registerTask('build', ['compass']);
-  grunt.registerTask('default', ['build','watch','jade','imagemin','concat','uglify']);
+  grunt.registerTask('default', ['connect', 'build','watch','jade','imagemin','concat','uglify']);
 }

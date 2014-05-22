@@ -1,33 +1,58 @@
 
 $(window).scrollTop($(window).scrollTop()+1);
 
+var myMap;
+ymaps.ready(function() {
+    myMap = new ymaps.Map('map', {
+        center: [43.127907, 131.953703],
+        zoom: 16,
+        controls: []
+    });
+    myPlacemark = new ymaps.Placemark([43.127907, 131.953703], {
+        balloonContentHeader: "ООО «Импо Групп»",
+        balloonContentBody: "690087, Приморский Край,<br>г. Владивосток, ул. Сабанеева 24В",
+        balloonContentFooter: "тел. - (423) 2-99-40-36",
+        hintContent: "ООО «Импо Групп»"
+    }, {
+        preset: 'islands#dotIcon',
+        iconColor: '#F94823'
+    });
+    myMap.geoObjects.add(myPlacemark);
+    myMap.behaviors.disable('scrollZoom')
+});
+
 (function(){
+
+    $('#mainMenu li').eq(0).addClass('active');
 
     $('.section-content').flexVerticalCenter({ cssAttribute: 'padding-top', verticalOffset: -30 });
 
-    $('.main').fullpage({
-        verticalCentered: false,
-        resize : false,
-        scrollingSpeed: 700,
-        easing: 'easeInOutQuad',
-        menu: false,
-        navigation: true,
-        navigationPosition: 'right',
-        slidesNavigation: true,
-        slidesNavPosition: 'bottom',
-        scrollOverflow: false,
-        keyboardScrolling: true,
-        touchSensitivity: 15,
-        animateAnchor: true,
+    if (!Modernizr.touch) {
+        $('.main').fullpage({
+            verticalCentered: false,
+            resize : false,
+            anchors:['company', 'services', 'transport', 'partners', 'contacts'],
+            scrollingSpeed: 700,
+            easing: 'easeInOutQuad',
+            menu: '#mainMenu',
+            navigation: true,
+            navigationPosition: 'right',
+            slidesNavigation: true,
+            slidesNavPosition: 'bottom',
+            scrollOverflow: false,
+            keyboardScrolling: true,
+            touchSensitivity: 15,
+            animateAnchor: true,
 
-        //events
-        onLeave: function(index, nextIndex, direction){},
-        afterLoad: function(anchorLink, index){},
-        afterRender: function(){},
-        afterResize: function(){},
-        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
-        onSlideLeave: function(anchorLink, index, slideIndex, direction){}
-    });
+            //events
+            onLeave: function(index, nextIndex, direction){},
+            afterLoad: function(anchorLink, index){},
+            afterRender: function(){},
+            afterResize: function(){},
+            afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+            onSlideLeave: function(anchorLink, index, slideIndex, direction){}
+        });
+    }
 
 })();
 

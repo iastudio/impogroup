@@ -618,7 +618,18 @@ body, html {
   box-shadow: #4fb85b 0 5px 0 0, #30a340 0 7px 0 0, #46b259 0 20px 10px -10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000368}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000369}}
+.section--contacts .title span, .section--contacts .content {
+  -webkit-box-shadow: #bebebe 0 5px 0 0, #b0b0b0 0 7px 0 0, #d0cfca 0 20px 10px -10px;
+  box-shadow: #bebebe 0 5px 0 0, #b0b0b0 0 7px 0 0, #d0cfca 0 20px 10px -10px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000372}}
+.section--contacts .content {
+  width: 500px;
+  padding-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000378}}
 .title {
   font-family: 'Clear Sans';
   font-size: 36px;
@@ -627,10 +638,11 @@ body, html {
   color: #B00C12;
   display: block;
   width: 1020px;
-  margin: 0 auto;
+  margin-left: 85px;
   margin-bottom: 80px;
+  position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000379}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000391}}
 .title span {
   background-color: #FFFFFF;
   display: inline-block;
@@ -639,7 +651,7 @@ body, html {
   padding: 10px 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000388}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003100}}
 .content {
   background-color: #FFF7E6;
   background-image: url(../i/content-bg.jpg);
@@ -648,9 +660,9 @@ body, html {
   overflow: hidden;
   position: relative;
   width: 1020px;
-  margin: 0 auto;
+  margin-left: 85px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000398}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003111}}
 .content .content__title {
   position: absolute;
   top: 0;
@@ -663,18 +675,25 @@ body, html {
   padding: 8px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003124}}
 .content hr {
   border: 0 solid #000;
   border-top-width: 2px;
   margin-bottom: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003118}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003131}}
 .well {
   background-color: #fff;
   padding: 30px 40px;
   margin-bottom: 20px;
+}
+
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003137}}
+#map {
+  position: absolute;
+  width: 100%;
+  height: 100%;
 }
 
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_ui\.scss}line{font-family:\000032}}
@@ -1266,32 +1285,91 @@ body:after {
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000321}}
 .nav .nav__menu ul li {
   list-style: none;
-  margin: 0;
-}
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000324}}
-.nav .nav__menu ul li a, .nav .nav__menu ul li a:link, .nav .nav__menu ul li a:visited {
-  display: block;
-  color: #fff;
-  text-transform: uppercase;
-  text-decoration: none;
-  line-height: 1;
   padding: 15px 0;
   margin: 5px 0;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000333}}
-.nav .nav__menu ul li a:hover, .nav .nav__menu ul li a:link:hover, .nav .nav__menu ul li a:visited:hover {
-  font-weight: bold;
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000325}}
+.nav .nav__menu ul li a, .nav .nav__menu ul li a:link, .nav .nav__menu ul li a:visited {
+  display: block;
+  position: relative;
+  text-transform: uppercase;
+  text-decoration: none;
+  line-height: 1;
+  color: #D5D5D5;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000340}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000334}}
+.nav .nav__menu ul li.active a, .nav .nav__menu ul li a:hover {
+  color: #fff;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000336}}
+.nav .nav__menu ul li.active a:before, .nav .nav__menu ul li a:hover:before {
+  display: block;
+  position: absolute;
+  left: -9px;
+  content: '';
+  width: 4px;
+  height: 100%;
+  background-color: #D3131B;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000349}}
 .nav .nav__info {
+  font-family: 'Clear Sans';
   margin-top: 80px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000342}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000352}}
 .nav .nav__info a, .nav .nav__info a:link, .nav .nav__info a:visited {
   color: #fff;
   text-decoration: none;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000356}}
+.nav .nav__info .nav__info__social {
+  margin: 40px 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000358}}
+.nav .nav__info .nav__info__social a {
+  border-radius: 9999px;
+  color: #FFF;
+  width: 25px;
+  height: 25px;
+  display: inline-block;
+  margin-right: 12px;
+  font-weight: 200;
+  line-height: 25px;
+  text-align: center;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000367}}
+.nav .nav__info .nav__info__social a.social--fb {
+  background-color: #003C6F;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000370}}
+.nav .nav__info .nav__info__social a.social--tw {
+  background-color: #3EBAC2;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000373}}
+.nav .nav__info .nav__info__social a.social--vk {
+  background-color: #0470A8;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000376}}
+.nav .nav__info .nav__info__social a:hover {
+  opacity: 0.7;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000381}}
+.nav .nav__info .nav__info__copyright {
+  font-size: 12px;
+  line-height: 1;
+  position: relative;
+  width: 200px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000386}}
+.nav .nav__info .nav__info__copyright .icon-iastudio {
+  float: left;
+  margin-right: 5px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000390}}
+.nav .nav__info .nav__info__copyright a:hover {
+  text-decoration: underline;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000395}}
 .nav hr {
   position: absolute;
   width: 100%;
@@ -1299,7 +1377,7 @@ body:after {
   border-color: #383838;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003104}}
 #fullPage-nav {
   position: fixed;
   z-index: 100;
@@ -1308,17 +1386,17 @@ body:after {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003111}}
 #fullPage-nav.right {
   right: 17px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000366}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003114}}
 #fullPage-nav.left {
   left: 17px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003117}}
 .fullPage-slidesNav {
   position: absolute;
   z-index: 4;
@@ -1326,24 +1404,24 @@ body:after {
   opacity: 1;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000375}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003123}}
 .fullPage-slidesNav.bottom {
   bottom: 17px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000378}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003126}}
 .fullPage-slidesNav.top {
   top: 17px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000381}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003129}}
 #fullPage-nav ul,
 .fullPage-slidesNav ul {
   margin: 0;
   padding: 0;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000386}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003134}}
 #fullPage-nav li,
 .fullPage-slidesNav li {
   display: block;
@@ -1353,12 +1431,12 @@ body:after {
   position: relative;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000394}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003142}}
 .fullPage-slidesNav li {
   display: inline-block;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\0000397}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003145}}
 #fullPage-nav li a,
 .fullPage-slidesNav li a {
   display: block;
@@ -1370,20 +1448,20 @@ body:after {
   text-decoration: none;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003107}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003155}}
 #fullPage-nav li .active span,
 .fullPage-slidesNav .active span {
-  background: #333;
+  background: #FFF;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003159}}
 #fullPage-nav span,
 .fullPage-slidesNav span {
   top: 2px;
   left: 2px;
   width: 8px;
   height: 8px;
-  border: 1px solid #000;
+  border: 1px solid #FFF;
   background: rgba(0, 0, 0, 0);
   border-radius: 50%;
   position: absolute;
