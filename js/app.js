@@ -1,8 +1,34 @@
+
 $(window).scrollTop($(window).scrollTop()+1);
 
 (function(){
-    
-    //$.stellar({ horizontalScrolling: false });
+
+    $('.section-content').flexVerticalCenter({ cssAttribute: 'padding-top', verticalOffset: -30 });
+
+    $('.main').fullpage({
+        verticalCentered: false,
+        resize : false,
+        scrollingSpeed: 700,
+        easing: 'easeInOutQuad',
+        menu: false,
+        navigation: true,
+        navigationPosition: 'right',
+        slidesNavigation: true,
+        slidesNavPosition: 'bottom',
+        scrollOverflow: false,
+        keyboardScrolling: true,
+        touchSensitivity: 15,
+        animateAnchor: true,
+
+        //events
+        onLeave: function(index, nextIndex, direction){},
+        afterLoad: function(anchorLink, index){},
+        afterRender: function(){},
+        afterResize: function(){},
+        afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
+        onSlideLeave: function(anchorLink, index, slideIndex, direction){}
+    });
+
 })();
 
 	/////////////////

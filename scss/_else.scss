@@ -1,20 +1,39 @@
+body, html {
+	overflow-x: visible !important;
+}
+
 .main {
 	margin-left: 240px;
 	height: 100%;
 }
 
 .section {
-	padding: 30px;
+	//padding: 30px;
 	width: 100%;
 	height: 100%;
 
 	background-image: url('../i/section-bg.png');
 	background-repeat: no-repeat;
-	background-position: 75% 50%;
+	background-position: 50% 50%;
 	background-attachment: fixed;
+	background-size: contain;
 
 	.container {
 		//position: absolute;
+	}
+
+	position: relative;
+	overflow: hidden;
+	&:before {
+		position: absolute;
+		display: block;
+		content: '';
+		width: 100%; height: 100%;
+		left: 0; top: 0;
+		z-index: 0;
+		@include background(radial-gradient(0 0, ellipse, rgba(255,255,255,0.5) 0%,rgba(255,255,255,0) 70%,rgba(255,255,255,0) 100%));
+		background-size: 1000px;
+		background-repeat: no-repeat;
 	}
 }
 
@@ -32,13 +51,30 @@
 	}
 }
 
+.section--transport {
+	background-color: #A72C16;
+	.title span, .content {
+		@include box-shadow(rgba(#DA5E32, 1) 0 5px 0 0, rgba(#C24824, 1) 0 7px 0 0, rgba(#C83F09, 1) 0 20px 10px -10px);
+	}
+}
+
+.section--partners {
+	background-color: #1BA348;
+	.title span, .content {
+		@include box-shadow(rgba(#4FB85B, 1) 0 5px 0 0, rgba(#30a340, 1) 0 7px 0 0, rgba(#46b259, 1) 0 20px 10px -10px);
+	}
+}
+
 .title {
+	font-family: 'Clear Sans';
 	font-size: 36px;
 	font-weight: 200;
 	text-transform: uppercase;
 	color: #B00C12;
 	display: block;
-	margin-top: 50px;
+	width: 1020px;
+	margin: 0 auto;
+	//margin-top: 50px;
 	margin-bottom: 80px;
 	span {
 		background-color: #FFFFFF;
@@ -56,6 +92,8 @@
 	padding: 60px 30px;
 	overflow: hidden;
 	position: relative;
+	width: 1020px;
+	margin: 0 auto;
 
 	.content__title {
 		position: absolute;
@@ -73,5 +111,12 @@
 	hr {
 		border: 0 solid #000;
 		border-top-width: 2px;
+		margin-bottom: 25px;
 	}
+}
+
+.well {
+	background-color: #fff;
+	padding: 30px 40px;
+	margin-bottom: 20px;
 }
