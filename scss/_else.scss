@@ -42,12 +42,32 @@ body, html {
 	.title span, .content {
 		@include box-shadow(rgba(#DAA12E, 1) 0 5px 0 0, rgba(#C88809, 1) 0 7px 0 0, rgba(#c88a0f, 1) 0 20px 10px -10px);
 	}
+	[class^="icon-"], [class*=" icon-"] {
+		line-height: 80px;
+		margin-left: -8px;
+	}
 }
 
 .section--services {
 	background-color: #2C9BE7;
+	font-size: 16px;
 	.title span, .content {
 		@include box-shadow(rgba(#278EDA, 1) 0 5px 0 0, rgba(#0979C8, 1) 0 7px 0 0, rgba(#1B88D4, 1) 0 20px 10px -10px);
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		display: block;
+		float: left;
+		margin-right: 20px;
+	}
+
+	.valign--cont {
+	    height: 100px;
+	    display: table-cell;
+	    vertical-align: middle;
+	    float: none;
+		.valign--inner {
+			display: block;
+		}
 	}
 }
 
@@ -55,6 +75,14 @@ body, html {
 	background-color: #A72C16;
 	.title span, .content {
 		@include box-shadow(rgba(#DA5E32, 1) 0 5px 0 0, rgba(#C24824, 1) 0 7px 0 0, rgba(#C83F09, 1) 0 20px 10px -10px);
+	}
+	[class^="icon-"], [class*=" icon-"] {
+		display: block;
+	}
+	.slider__item {
+		text-align: center;
+		line-height: 1;
+		font-size: 13px;
 	}
 }
 
@@ -69,14 +97,30 @@ body, html {
 	.title span, .content {
 		@include box-shadow(rgba(#BEBEBE, 1) 0 5px 0 0, rgba(#B0B0B0, 1) 0 7px 0 0, rgba(#D0CFCA, 1) 0 20px 10px -10px);
 	}
+	[class^="icon-"], [class*=" icon-"] {
+		display: block;
+		float: left;
+		margin-right: 5px;
+		font-size: 42px;
+		color: #b00c12;
+	}
 	.content {
 		width: 500px;
 		padding-bottom: 20px;
 		line-height: 1;
+		.contacts__info {
+			width: 260px;
+			margin-left: 0;
+			margin-right: 0;
+		}
 		.contacts__download {
 			border-left: 1px solid #B00B11;
 			height: 100px;
 			padding: 33px 0 0 25px;
+			[class^="icon-"], [class*=" icon-"] {
+				color: #000;
+				line-height: 32px;
+			}
 			a {
 				color: #b00c12;
 				text-decoration: none;

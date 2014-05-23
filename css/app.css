@@ -587,62 +587,114 @@ body, html {
   -webkit-box-shadow: #daa12e 0 5px 0 0, #c88809 0 7px 0 0, #c88a0f 0 20px 10px -10px;
   box-shadow: #daa12e 0 5px 0 0, #c88809 0 7px 0 0, #c88a0f 0 20px 10px -10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000345}}
+.section--company [class^="icon-"], .section--company [class*=" icon-"] {
+  line-height: 80px;
+  margin-left: -8px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000347}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000351}}
 .section--services {
   background-color: #2C9BE7;
+  font-size: 16px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000349}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000354}}
 .section--services .title span, .section--services .content {
   -webkit-box-shadow: #278eda 0 5px 0 0, #0979c8 0 7px 0 0, #1b88d4 0 20px 10px -10px;
   box-shadow: #278eda 0 5px 0 0, #0979c8 0 7px 0 0, #1b88d4 0 20px 10px -10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000357}}
+.section--services [class^="icon-"], .section--services [class*=" icon-"] {
+  display: block;
+  float: left;
+  margin-right: 20px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000363}}
+.section--services .valign--cont {
+  height: 100px;
+  display: table-cell;
+  vertical-align: middle;
+  float: none;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000368}}
+.section--services .valign--cont .valign--inner {
+  display: block;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000354}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000374}}
 .section--transport {
   background-color: #A72C16;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000356}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000376}}
 .section--transport .title span, .section--transport .content {
   -webkit-box-shadow: #da5e32 0 5px 0 0, #c24824 0 7px 0 0, #c83f09 0 20px 10px -10px;
   box-shadow: #da5e32 0 5px 0 0, #c24824 0 7px 0 0, #c83f09 0 20px 10px -10px;
 }
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000379}}
+.section--transport [class^="icon-"], .section--transport [class*=" icon-"] {
+  display: block;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000382}}
+.section--transport .slider__item {
+  text-align: center;
+  line-height: 1;
+  font-size: 13px;
+}
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000361}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000389}}
 .section--partners {
   background-color: #1BA348;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000363}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000391}}
 .section--partners .title span, .section--partners .content {
   -webkit-box-shadow: #4fb85b 0 5px 0 0, #30a340 0 7px 0 0, #46b259 0 20px 10px -10px;
   box-shadow: #4fb85b 0 5px 0 0, #30a340 0 7px 0 0, #46b259 0 20px 10px -10px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000369}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000397}}
 .section--contacts .title span, .section--contacts .content {
   -webkit-box-shadow: #bebebe 0 5px 0 0, #b0b0b0 0 7px 0 0, #d0cfca 0 20px 10px -10px;
   box-shadow: #bebebe 0 5px 0 0, #b0b0b0 0 7px 0 0, #d0cfca 0 20px 10px -10px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000372}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003100}}
+.section--contacts [class^="icon-"], .section--contacts [class*=" icon-"] {
+  display: block;
+  float: left;
+  margin-right: 5px;
+  font-size: 42px;
+  color: #b00c12;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003107}}
 .section--contacts .content {
   width: 500px;
   padding-bottom: 20px;
   line-height: 1;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000376}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003111}}
+.section--contacts .content .contacts__info {
+  width: 260px;
+  margin-left: 0;
+  margin-right: 0;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003116}}
 .section--contacts .content .contacts__download {
   border-left: 1px solid #B00B11;
   height: 100px;
   padding: 33px 0 0 25px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000380}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003120}}
+.section--contacts .content .contacts__download [class^="icon-"], .section--contacts .content .contacts__download [class*=" icon-"] {
+  color: #000;
+  line-height: 32px;
+}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003124}}
 .section--contacts .content .contacts__download a {
   color: #b00c12;
   text-decoration: none;
   font-size: 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\0000389}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003133}}
 .title {
   font-family: 'Clear Sans';
   font-size: 36px;
@@ -655,7 +707,7 @@ body, html {
   margin-bottom: 80px;
   position: relative;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003102}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003146}}
 .title span {
   background-color: #FFFFFF;
   display: inline-block;
@@ -664,7 +716,7 @@ body, html {
   padding: 10px 15px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003111}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003155}}
 .content {
   background-color: #FFF7E6;
   background-image: url(../i/content-bg.jpg);
@@ -674,7 +726,7 @@ body, html {
   width: 1020px;
   margin-left: 85px;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003122}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003166}}
 .content .content__title {
   position: absolute;
   top: 0;
@@ -687,21 +739,21 @@ body, html {
   padding: 8px;
   text-transform: uppercase;
 }
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003135}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003179}}
 .content hr {
   border: 0 solid #000;
   border-top-width: 2px;
   margin-bottom: 25px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003142}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003186}}
 .well {
   background-color: #fff;
   padding: 30px 40px;
   margin-bottom: 20px;
 }
 
-@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003148}}
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_else\.scss}line{font-family:\00003192}}
 #map {
   position: absolute;
   width: 100%;

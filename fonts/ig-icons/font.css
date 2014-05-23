@@ -1,0 +1,62 @@
+@font-face {
+	font-family: 'ig';
+	src:url('ig.eot?-8buxcd');
+	src:url('ig.eot?#iefix-8buxcd') format('embedded-opentype'),
+		url('ig.woff?-8buxcd') format('woff'),
+		url('ig.ttf?-8buxcd') format('truetype'),
+		url('ig.svg?-8buxcd#ig') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+	font-family: 'ig';
+	speak: none;
+	font-style: normal;
+	font-weight: normal;
+	font-variant: normal;
+	text-transform: none;
+	line-height: 1;
+	font-size: 100px;
+
+	/* Better Font Rendering =========== */
+	-webkit-font-smoothing: antialiased;
+	-moz-osx-font-smoothing: grayscale;
+}
+
+.icon-idea:before {
+	content: "\e600";
+}
+.icon-gps-searching:before {
+	content: "\e601";
+}
+.icon-workstation:before {
+	content: "\e602";
+}
+.icon-download:before {
+	content: "\e603";
+}
+.icon-document:before {
+	content: "\e604";
+}
+.icon-gas-station:before {
+	content: "\e605";
+}
+.icon-target:before {
+	content: "\e606";
+}
+.icon-bell:before {
+	content: "\e607";
+}
+.icon-calendar:before {
+	content: "\e608";
+}
+.icon-temperature:before {
+	content: "\e609";
+}
+.icon-location:before {
+	content: "\e60a";
+}
+.icon-phone:before {
+	content: "\e60b";
+}
