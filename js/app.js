@@ -47,7 +47,7 @@ $.modal.defaults = {
         $('.main').fullpage({
             verticalCentered: false,
             resize : false,
-            anchors:['company', 'services', 'transport', 'partners', 'contacts'],
+            anchors:['company', 'services', 'transport', 'news', 'partners', 'contacts'],
             scrollingSpeed: 700,
             easing: 'easeInOutQuad',
             menu: '#mainMenu',
@@ -75,7 +75,8 @@ $.modal.defaults = {
          //debugger;
          var $this = $(this);
          var $inner = $this.parent().parent().find('.slider__items');
-         var maxCount = $inner.find('.slider__item').length-6;
+         var slidesCount = parseInt($inner.attr('data-slides'));
+         var maxCount = $inner.find('.slider__item').length - slidesCount;
          if ($inner.attr('data-count') == undefined)
              $inner.attr('data-count', 0);
          var count = parseInt($inner.attr('data-count'));
