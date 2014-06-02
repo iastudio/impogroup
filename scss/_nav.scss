@@ -170,3 +170,9 @@
     position: absolute;
     z-index: 1;
 }
+
+@media (max-width: 1410px) {
+	#fullPage-nav {
+		display: none;
+	}
+}

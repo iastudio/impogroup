@@ -322,7 +322,7 @@ figure {
 ---------------------------*/
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_960\.scss}line{font-family:\0000320}}
 body {
-  min-width: 1400px;
+  min-width: 1430px;
 }
 
 /* `Containers
@@ -1663,6 +1663,12 @@ body:after {
   z-index: 1;
 }
 
+@media (max-width: 1410px) {
+@media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_nav\.scss}line{font-family:\00003175}}
+  #fullPage-nav {
+    display: none;
+  }
+}
 @media -sass-debug-info{filename{font-family:file\:\/\/\/Users\/mac-mini-2\/Desktop\/src\/impogroup\/src\/scss\/_slider\.scss}line{font-family:\000031}}
 .slider {
   position: relative;
